@@ -94,7 +94,7 @@ elements = ['Ag',
 
 for ii in np.arange(100):
 #  os.system('mkdir '+str(elements[ii]))
-  os.system('mv '+str(elements[ii])+'.psp8  '+str(elements[ii])+'/'+str(elements[ii])+'_str.psp8')
+  os.system('mv '+str(elements[ii])+'.psml  '+str(elements[ii])+'/'+str(elements[ii])+'_str.psml')
 
 
 

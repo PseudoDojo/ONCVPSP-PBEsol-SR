@@ -94,7 +94,13 @@ elements = ['Ag',
 
 for ii in np.arange(100):
 #  os.system('mkdir '+str(elements[ii]))
-  os.system('mv '+str(elements[ii])+'.psml  '+str(elements[ii])+'/'+str(elements[ii])+'_str.psml')
+#  os.system('mv '+str(elements[ii])+'.psml  '+str(elements[ii])+'/'+str(elements[ii])+'_str.psml')
+#   os.system('cd '+str(elements[ii])+'/ && wget http://www.pseudo-dojo.org/pseudos/nc-sr-04_pbesol_standard/'+str(elements[ii])+'.html && mv '+str(elements[ii])+'.html '+str(elements[ii])+'_std.html' )
+   os.system('cd '+str(elements[ii])+'/ && wget http://www.pseudo-dojo.org/pseudos/nc-sr-04_pbesol_stringent/'+str(elements[ii])+'.html && mv '+str(elements[ii])+'.html '+str(elements[ii])+'_str.html' )
+
+
+
+
 
 
 
